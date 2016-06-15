@@ -7,6 +7,9 @@ use yii\widgets\DetailView;
 /* @var $model app\models\Category */
 
 $this->title = $model->category;
+if(!Yii::$app->user->isGuest){
+    $this->params['breadcrumbs'][] = ['label' => 'Категории', 'url' => ['index']];
+}
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="category-view">
