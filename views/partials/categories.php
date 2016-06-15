@@ -18,7 +18,9 @@ $categories = \app\models\Category::find()->joinWith('books')->all();
             </ul>
         <?php else: ?>
             <h4>Пока не добавлено ни одной категории.</h4>
-            <?= Html::a('Добавить', ['/category/create'], ['class' => 'btn btn-success']) ?>
+            <?php if(!Yii::$app->user->isGuest): ?>
+                <?= Html::a('Добавить', ['/category/create'], ['class' => 'btn btn-success']) ?>
+            <?php endif; ?>
         <?php endif; ?>
     </div>
 </div>
