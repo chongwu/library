@@ -26,7 +26,7 @@
 composer global require "fxp/composer-asset-plugin:~1.1.1"
 ~~~
 
-Скачайте архив [Библиотека 0.1](https://github.com/chongwu/angular-seed/archive/master.zip) и распакуйте содержимое в папку,
+Скачайте архив [Библиотека 0.1](https://github.com/chongwu/library/archive/master.zip) и распакуйте содержимое в папку,
 например `library`, которая будет находиться в корневом каталоге веб сервера.
 
 Затем перейдите в папку `library` и выполните следующую команду:
