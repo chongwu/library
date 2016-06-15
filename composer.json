@@ -2,7 +2,6 @@
     "name": "jokerd1/library",
     "description": "Library site",
     "keywords": ["Library"],
-    "homepage": "",
     "type": "project",
     "minimum-stability": "stable",
     "require": {
